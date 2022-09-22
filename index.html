@@ -2,60 +2,142 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="dateReporter.js" defer></script>
   </head>
   <body>
     <header>
+      <p id="dateText">Todays Date is ...</p>
       <h1>Music Production</h1>
-      <p>Travis Minnaar</p>
+      <p class="author">Travis Minnaar</p>
     </header>
     <hr />
-    <h2>Introduction</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem dolorum
-      eum unde culpa in nesciunt similique, voluptatibus omnis dignissimos quis
-      delectus eveniet qui quo officiis eos. Ipsam, illo maiores!
-    </p>
-    <h2>Genres</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem dolorum
-      eum unde culpa in nesciunt similique, voluptatibus omnis dignissimos quis
-      delectus eveniet qui quo officiis eos. Ipsam, illo maiores!
-    </p>
-    <h2>Tools</h2>
-    <h3>Hardware</h3>
-    <ul>
-      <li><b>Windows PC</b></li>
-      <li><b>Ableton Push</b></li>
-      <li><b>Mackie MR5 MKII Monitors</b></li>
-      <li><b>Focusrite Scarlett 2i2 Audio Interface</b></li>
-    </ul>
-    <h3>Software</h3>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-    </ul>
-    <h2>Workflow</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-      corporis ducimus aut, assumenda minus at, vero recusandae blanditiis rem,
-      voluptatem distinctio aspernatur ad quam optio a consectetur error odit
-      fugiat.
-    </p>
-    <h2>Releases</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem dolorum
-      eum unde culpa in nesciunt similique, voluptatibus omnis dignissimos quis
-      delectus eveniet qui quo officiis eos. Ipsam, illo maiores!
-    </p>
+    <div class="textBody">
+      <h2>Introduction</h2>
+      <p class="textBody">
+        I've been producing music for nearly a decade, starting as a passing
+        interest and eventually growing into an obsession for the last 5 years.
+        I've been fortunate enough to have my music released on vinyl and played
+        gigs in London and Bristol.
+        <br />
+        <br />
+        For the most part I produce dubstep, with my biggest influences being
+        <a href="https://www.youtube.com/watch?v=VCLoB9aYdu8" target="_blank"
+          >Headland</a
+        >,
+        <a href="https://www.youtube.com/watch?v=obekLd4rZN4" target="_blank"
+          >Causa</a
+        >
+        and
+        <a href="https://youtu.be/T2Chnev4klI" target="_blank"
+          >Digital Mystikz</a
+        >. I often dabble in Halftime Jungle too with
+        <a href="https://youtu.be/hlo0PRMFWOg" target="_blank"
+          >Homemade Weapons</a
+        >
+        and
+        <a href="https://youtu.be/MoJStt8yZ5Y" target="_blank">TORN</a> being
+        major influences. I'm drawn to genres with alot of space, rhythm and
+        tension.
+      </p>
+    </div>
+    <div class="textBody">
+      <h2>Tools</h2>
+      <h3>Hardware</h3>
+      <ul>
+        <li>
+          <b>Ableton Push:</b> a midi controller to sequence melodies, beats and
+          automation.
+        </li>
+        <li>
+          <b>Mackie MR5 MKII Monitors:</b> active two‑way monitors to reference
+          audio with.
+        </li>
+        <li>
+          <b>Focusrite Scarlett 2i2 Audio Interface:</b> an audio interface with
+          2 inputs for recording external instruments.
+        </li>
+      </ul>
+      <h3>Software</h3>
+      <ul>
+        <li>
+          <b>Ableton Live 11: </b> my DAW (digital audio workstation) of choice,
+          heavily focused on a frictionless workflow to flesh out tracks quickly
+          while the ideas are fresh!
+        </li>
+        <li>
+          <b>The Glue:</b> an analog modeled compressor plug-in based on The
+          classic 80's British big console buss compressor, great for
+          controlling drums and 'glueing' them together.
+        </li>
+        <li>
+          <b>Valhalla VintageVerb:</b> inspired by the classic hardware digital
+          reverbs of the 70s and 80s, VintageVerb has a wide array of modelled
+          rooms and springs to choose from that make it really easy getting that
+          nice old dusty reverb sound.
+        </li>
+        <li>
+          <b>u-he Twangström:</b> you can't make spacey dubstep without a spring
+          reverb, and although nothing's as good as the real deal, Twangström
+          comes very close.
+        </li>
+        <li>
+          <b>xfer Serum:</b> the bread and butter of the vast majority of
+          electronic music producers, Serum is a wavetable synthesizer with
+          frequency modulation capabilites.
+        </li>
+      </ul>
+    </div>
+    <div class="textBody">
+      <h2>Workflow</h2>
+      <p class="textBody">
+        I find that the tracks I'm most happy with end up being the ones that
+        are started and finished within the space of a few days. The longer it's
+        drawn out, the harder it is to maintain the creative headspace you were
+        in when you first started, so having a frictionless creative workflow is
+        imperitive. Ableton opens in a template I have iterated over and over
+        through the years, with my go-to channels for drums, synths, fx etc.
+        already set up with my go-to plug-ins on. For instance, having 2
+        seperate reverb channels; a large hall and a plate reverb, allows me to
+        send my instruments to reverbs with settings already dialled in for the
+        space they require.
+        <br />
+        <br />
+        Seperating sound design and writing into their own sessions is another
+        massive help, there's nothing worse than getting hung up trying to
+        create the perfect bass sound for hours and squandering your creative
+        headspace, making it harder to move forward with the musicality and
+        arrangement of the track. On days when I'm not feeling too creative I
+        try and spend my time synthesising bass sounds and creating interesting
+        distortion, reverb and delay patches, much like a pianter would mix a
+        pallete before starting a painting. Not only does this save you the
+        hassle of getting too fiddly when you're trying to write and arrange
+        tracks but also slowly nurtures your own signature sound over time that
+        sets you apart from your peers.
+      </p>
+    </div>
+    <div class="textBody">
+      <h2>Releases</h2>
+      <p class="textBody">
+        So far I have been fortunate enough to have to releases pressed to
+        vinyl, both EP's out on Encrypted Audio.
+        <br />
+        <br />
+        <img src="images/env21.jpg" width="350" />
+        <img src="images/env21.1.jpg" width="350" />
+      </p>
+    </div>
     <footer>
-      <p>Travis Minnaar + link</p>
+      <p><a href="mailto: abc@example.com">Email Me!</a></p>
     </footer>
   </body>
 </html>
