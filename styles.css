@@ -2,6 +2,29 @@ header {
   text-align: right;
   color: #dad7cd;
   font-size: 25px;
+  font-weight: bold;
+}
+
+#dateText {
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+hr {
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  width: 70%;
+  border: none;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(transparent),
+    to(transparent),
+    color-stop(50%, #dad7cd)
+  );
 }
 
 h1 {
@@ -17,6 +40,8 @@ a:link {
 }
 
 .author {
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
   font-size: 25px;
   color: #dad7cd;
@@ -25,6 +50,8 @@ a:link {
 h2 {
   color: #dad7cd;
   font-size: 55px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -33,6 +60,7 @@ h3 {
 
 li {
   color: #dad7cd;
+  padding: 0px 50px 0px 0px;
 }
 
 body {
@@ -43,15 +71,41 @@ body {
 
 p.textBody {
   color: #dad7cd;
+  padding: 0px 50px 0px 0px;
+  border: 2px;
+  margin: 2px;
 }
 
-div.textBody {
+#container {
+  height: 100%;
+  width: 100%;
+  margin: 2px;
+}
+
+#panel_1,
+#panel_2,
+#panel_3,
+#panel_4 {
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  width: 24%;
+  padding: 1px;
+  border: 1px;
+  margin: 1px;
+}
+
+/*div.textBody {
   width: 23%;
   padding: 5px, 25px;
   margin: 20px;
   float: left;
 }
-
+*/
 footer {
   color: #dad7cd;
+}
+
+img {
+  border: 5px solid #dad7cd;
 }
