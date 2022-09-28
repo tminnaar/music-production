@@ -1,6 +1,10 @@
-header {
-  text-align: right;
+body {
   color: #dad7cd;
+  background-color: #1e2817;
+  font-family: "Space Mono", monospace;
+}
+
+header {
   font-size: 25px;
   font-weight: bold;
 }
@@ -8,6 +12,7 @@ header {
 #dateText {
   margin-top: 10px;
   margin-bottom: 1px;
+  text-align: right;
 }
 
 hr {
@@ -28,52 +33,23 @@ hr {
 }
 
 h1 {
-  color: #dad7cd;
   text-align: center;
   font-size: 100px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-a:link {
-  color: #dad7cd;
-}
-
 .author {
-  margin-top: 5px;
-  margin-bottom: 5px;
   text-align: center;
   font-size: 25px;
-  color: #dad7cd;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h2 {
-  color: #dad7cd;
   font-size: 55px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-h3 {
-  color: #dad7cd;
-}
-
-li {
-  color: #dad7cd;
-  padding: 0px 50px 0px 0px;
-}
-
-body {
-  /* background-image: linear-gradient(#1e2817, #b9b63c);*/
-  background-color: #1e2817;
-  font-family: "Space Mono", monospace;
-}
-
-p.textBody {
-  color: #dad7cd;
-  padding: 0px 50px 0px 0px;
-  border: 2px;
-  margin: 2px;
 }
 
 #container {
@@ -82,30 +58,16 @@ p.textBody {
   margin: 2px;
 }
 
-#panel_1,
-#panel_2,
-#panel_3,
-#panel_4 {
+.panel {
   display: inline-block;
-  *display: inline;
   vertical-align: top;
-  width: 24%;
-  padding: 1px;
+  width: 22%;
+  padding: 0px 50px 0px 0px;
   border: 1px;
   margin: 1px;
 }
 
-/*div.textBody {
-  width: 23%;
-  padding: 5px, 25px;
-  margin: 20px;
-  float: left;
-}
-*/
-footer {
-  color: #dad7cd;
-}
-
 img {
   border: 5px solid #dad7cd;
+  margin-top: 80px;
 }
