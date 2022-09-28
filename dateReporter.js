@@ -1,5 +1,4 @@
 const dateElement = document.getElementById("dateText");
-//const date = "12 May 2022";
 
 let today = new Date();
 let day = today.getDate();
