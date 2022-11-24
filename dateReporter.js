@@ -6,5 +6,3 @@ let month = today.getMonth() + 1;
 let year = today.getFullYear();
 
 dateElement.textContent = `Today's date is ${day}/${month}/${year}`;
-
-console.log();
